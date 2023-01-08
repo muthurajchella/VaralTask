@@ -14,11 +14,13 @@
     margin: auto;
 }
 
+/* Nav start */
+
 nav{
     width: 100%;
     height: auto;
     padding: 10px;
-    /* border: 1px solid red; */
+    /* position: fixed; */
 }
 
 .nav-flex{
@@ -105,7 +107,7 @@ nav{
 }
 
 .nav-btn button{
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 20px 15px;
     font-size: 16px;
@@ -125,3 +127,266 @@ nav{
 .navLinks ul li a:hover{
     color: black;
 }
+
+.nav-search{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.search-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ser-space{
+    width: 80%;
+}
+
+.ser-in{
+    width: 30%;
+    padding: 0px 0px;
+    border: solid 2px rgb(103, 37, 226);
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.ser-in i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    color: rgb(103, 37, 226);
+}
+
+.ser-in input{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: rgb(103, 37, 226);
+    cursor: pointer;
+}
+
+/* Nav End */
+
+/* Banner Start */
+.banner{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.banner-flex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-con{
+    width: 50%;
+    height: auto;
+    padding-right: 5px;
+}
+
+.bannerCon{
+    width: 100%;
+    height: auto;
+}
+
+.bannerCon p{
+    font-size: 16px;
+    color: blue;
+}
+
+.bannerCon h1{
+    font-size: 35px;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bannerCon h1 span{
+    text-decoration: underline solid 7px rgb(255, 174, 0);
+}
+
+.bannerCon h3{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(143, 140, 140);
+}
+
+.banner-btns{
+    margin-top: 20px;
+    display: flex;
+}
+
+.banner-btns button{
+    padding: 15px 30px;
+    font-size: 16px;
+    border: solid 1px rgb(103, 37, 226);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.banner-star button{
+    background-color: rgb(103, 37, 226);
+    color: white;
+}
+
+.banner-renew button{
+    background-color: white;
+    color: rgb(103, 37, 226);
+}
+
+.banner-btns:hover .banner-star button{
+    background-color: white;
+    color: rgb(103, 37, 226);
+}
+
+.banner-btns:hover .banner-renew button{
+    background-color: rgb(103, 37, 226);
+    color: white;
+} 
+
+.banner-img{
+    width: 50%;
+}
+
+.bannerImg{
+    width: 100%;
+}
+
+.bannerImg img{
+    width: 100%;
+    /* padding: 50px; */
+}
+
+.banner-foot{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.banner-foot p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(103, 37, 226);
+    cursor: pointer;
+}
+
+.banner-foot i{
+    font-size: 25px;
+    padding-left: 5px;
+    transition: .5s;
+}
+
+.banner-foot p:hover i{
+    color: rgb(8, 224, 8);
+}
+/* Banner End */
+
+/* OurMission Start */
+.ourMission{
+    width: 100%;
+    margin-top: 50px;
+    background-color: white;
+    position: relative;
+}
+
+.ourMissionCon{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    padding: 20px 0px;
+}
+
+.ourMissionCon h1{
+    text-decoration: underline solid 5px rgb(255, 174, 0);
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.ourMissionCon p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 25px;
+    padding-top: 10px;
+    color: rgb(170, 165, 165);
+    
+}
+
+.position-imgs{
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+.position-imgs img{
+    width: 250px;
+    height: 250px;
+}
+
+.position-circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 100px;
+}
+
+.position-circle img{
+    filter: blur(100);
+}
+/* OurMission End */
+
+/* Company start */
+.company{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.companyBoxsFlex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.companyBox1{
+    width: 33.3%;
+}
+
+.companyBox2{
+    width: 33.3%;
+}
+
+.companyBox3{
+    width: 33.3%;
+}
+
+.companyBox1Con{
+    width: 100%;
+}
+
+.companyBox2Con{
+    width: 100%;
+}
+
+.companyBox3Con{
+    width: 100%;
+}
+
+
+/* Company End */
