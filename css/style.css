@@ -377,16 +377,367 @@ nav{
 }
 
 .companyBox1Con{
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    
 }
 
 .companyBox2Con{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 .companyBox3Con{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
+.companyBox1Con img{
+    width: 35px;
+    height: 35px;
+}
+
+.companyBox2Con img{
+    width: 35px;
+    height: 35px;
+}
+
+.companyBox3Con img{
+    width: 35px;
+    height: 35px;
+}
+
+.companyBox1Con h1{
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+.companyBox2Con h1{
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+.companyBox3Con h1{
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+.companyBox1Con p{
+    font-size: 14px;
+    line-height: 20px;
+    /* text-align: start; */
+    padding-bottom: 10px;
+}
+
+.companyBox2Con p{
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.companyBox3Con p{
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.companyBox1Con a{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    transition: .5s;
+}
+
+.companyBox2Con a{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    transition: .5s;
+}
+
+.companyBox3Con a{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    transition: .5s;
+}
+
+.companyBox1Con a:hover{
+    color: rgb(8, 224, 8);
+}
+
+.companyBox2Con a:hover{
+    color: rgb(8, 224, 8);
+}
+
+.companyBox3Con a:hover{
+    color: rgb(8, 224, 8);
+}
 
 /* Company End */
+
+/* Services Start */
+.services{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.ser-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ser-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ser-right{
+    width: 50%;
+}
+
+.serLeft{
+    width: 80%;
+    margin: auto;
+}
+
+.serHead{
+    width: 100%;
+    height: auto;
+}
+
+.serHead p{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.serHead a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(37, 56, 226);
+    transition: .5s;
+}
+
+.serHead a:hover{
+    color: rgb(8, 224, 8);
+}
+
+.serLeftBox1{
+    width: 100%;
+    margin-top: 50px;
+    border: solid 1px 
+    rgb(173, 169, 169);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.serLeftImg1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serLeftBox1 h1{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.serLeftBox1 p{
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: rgb(151, 147, 147);
+
+}
+
+.serLeftBox1 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(95, 108, 231);
+    /* padding-top: 20px; */
+}
+
+.serLeftBox1 a i{
+    font-size: 30px;
+    /* font-weight: 800; */
+    color: rgb(37, 56, 226);
+    padding-left: 10px;
+}
+
+.serLeftBox2{
+    width: 100%;
+    margin-top: 150px;
+    border: solid 1px 
+    rgb(173, 169, 169);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.serLeftImg2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serLeftBox2 h1{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.serLeftBox2 p{
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: rgb(151, 147, 147);
+
+}
+
+.serLeftBox2 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(95, 108, 231);
+}
+
+.serLeftBox2 a i{
+    font-size: 30px;
+    color: rgb(37, 56, 226);
+    padding-left: 10px;
+}
+
+.ser-right{
+    width: 50%;
+}
+
+.serRight{
+    width: 80%;
+    margin: auto;
+}
+
+.serRightBox1{
+    width: 100%;
+    border: solid 1px rgb(173, 169, 169);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.serRightImg1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.serRightBox1 h1{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.serRightBox1 p{
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(167, 162, 162);
+}
+
+.serRightBox1 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(95, 108, 231);
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.serRightBox1 a i{
+    font-size: 30px;
+    color: rgb(37, 56, 226);
+    margin-left: 10px;
+    
+}
+
+.serRightBox2{
+    width: 100%;
+    border: solid 1px rgb(173, 169, 169);
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: 130px;
+}
+
+.serRightImg2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.serRightBox2 h1{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.serRightBox2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(167, 162, 162);
+}
+
+.serRightBox2 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(95, 108, 231);
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.serRightBox2 a i{
+    font-size: 30px;
+    color: rgb(37, 56, 226);
+    margin-left: 10px;
+    
+}
+
+.serRightFooter{
+    margin-top: 30px;
+}
+
+.serRightFooter p{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.serRightFooter a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 20px;
+    color: rgb(37, 56, 226);
+    display: flex;
+    align-items: center;
+}
+
+.serRightFooter a i{
+    font-size: 30px;
+    color: rgb(37, 56, 226);
+}
+/* Services End */
